@@ -1,21 +1,48 @@
+body{
+  background-color: #1c3047;
+  font-family: "Arial Black"
+}
+
 .navbar{
-    background-color: #bf1c13;
+    background-color: #252525;
     display: flex;
     align-items: center;
     font-size: calc(10px + 2vmin);
-    color: black;
   }
 
-  .nav{
-    background-color: #bf1c13;
-    display: flex;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
+  .navItem-text{
+    color:#eea804;
+    border: 0px;
+    padding: 0px;
+    margin:0px;
+  }
+
+  .card{
+    width: 970px;
   }
 
 
-
-  .link {
-    color: #f0f013;
+  .card:hover .card-img,
+  .card:focus .card-img {
+    transform: scale(1.02);
+    opacity:0.5;
   }
+  
+  .card:hover .card-img-overlay{
+      color:#eea804;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-position: center;
+    background-size: cover;
+    transition:all 0.3s ease-in-out;
+    opacity:1;
+  }
+
+
+  
+
+

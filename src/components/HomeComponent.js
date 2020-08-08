@@ -16,22 +16,22 @@ class HomePage extends Component {
                 <Row>
                     <Col>
                 <CardGroup>
-                    <Card className="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img  alt="Card image" />
+                <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>Music</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img src="../assets/eventsimg.png" alt="Card image" />
+                    <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>About Me</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card hover zoomclassName="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img src={require("../assets/eventsimg.png")} alt="Card image" />
+                    <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/eventsimg.png")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>Events</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
                 </CardGroup>
@@ -40,22 +40,22 @@ class HomePage extends Component {
                 <Row>
                     <Col>
                 <CardGroup>
-                    <Card className="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img src="../assets/eventsimg.png" alt="Card image" />
+                <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>Support Me</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img src="../assets/eventsimg.png" alt="Card image" />
+                    <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>Social Media</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white text-center" style={{ width: "18rem", height: "24rem" }}>
-                        <Card.Img src="../assets/eventsimg.png" alt="Card image" />
+                    <Card className="bg-dark text-center hover_container">
+                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title><h2>Store</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
                 </CardGroup>
