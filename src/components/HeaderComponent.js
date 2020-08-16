@@ -26,7 +26,7 @@ class Header extends Component {
                                 <Nav.Link href=""><p className="navItem-text">My Music</p></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="" ><p className="navItem-text">About Me</p></Nav.Link>
+                                <Nav.Link href="/aboutme" ><p className="navItem-text">About Me</p></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="" ><p className="navItem-text">Events</p></Nav.Link>

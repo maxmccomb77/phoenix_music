@@ -6,6 +6,8 @@ import {
     Row,
     Col
 } from "react-bootstrap";
+import '../styling/custom_styling.css';
+
 
 
 
