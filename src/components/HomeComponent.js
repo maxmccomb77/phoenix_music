@@ -18,20 +18,20 @@ class HomePage extends Component {
                 <Row>
                     <Col>
                 <CardGroup>
-                <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>Music</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                    <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>About Me</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/eventsimg.png")} alt="Card image" />
+                    <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/eventsimg.png")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>Events</h2></Card.Title>
                         </Card.ImgOverlay>
@@ -42,20 +42,20 @@ class HomePage extends Component {
                 <Row>
                     <Col>
                 <CardGroup>
-                <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>Support Me</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                    <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>Social Media</h2></Card.Title>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-center hover_container">
-                        <Card.Img className="card-img" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                    <Card className="card-home bg-dark text-center hover_container">
+                        <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h2>Store</h2></Card.Title>
                         </Card.ImgOverlay>

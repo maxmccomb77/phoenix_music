@@ -23,7 +23,7 @@ class Header extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav variant="tabs" defaultActiveKey="/home">
                             <Nav.Item>
-                                <Nav.Link href=""><p className="navItem-text">My Music</p></Nav.Link>
+                                <Nav.Link href="mymusic"><p className="navItem-text">My Music</p></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="/aboutme" ><p className="navItem-text">About Me</p></Nav.Link>

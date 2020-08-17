@@ -3,6 +3,12 @@ body{
   font-family: "Arial Black"
 }
 
+h1{
+  color: #dd4e00;
+  padding-left: 5%;
+  font-size: 45pt;
+}
+
 .navbar{
     background-color: #252525;
     display: flex;
@@ -17,24 +23,43 @@ body{
     margin:0px;
   }
 
-  .card{
-    width: 970px;
+  .card-music{
+    margin: 5px;
+    background-color: black;
+    border-left: 10px solid #eea804;
   }
 
+  .h3-song-title{
+    color: white;
+  }
   
+  .h3-song-album{
+    color: #A9A9A9;
+  }
 
+  .a-song{
+    text-decoration: none;
+    color:#f9d400;
+}
 
-  .card:hover .card-img,
-  .card:focus .card-img {
+ .a-song:hover{
+    color:#eea804;
+}
+
+  .card-home{
+    width: 970px;
+  }
+  .card-home:hover .card-img,
+  .card-home:focus .card-img {
     transform: scale(1.02);
     opacity:0.5;
   }
   
-  .card:hover .card-img-overlay{
+  .card-home:hover .card-img-overlay{
       color:#eea804;
   }
 
-  .card-img {
+  .card-img-home {
     width: 100%;
     height: 100%;
     background-color: black; /* fallback color */
