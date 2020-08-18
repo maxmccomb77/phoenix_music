@@ -76,13 +76,13 @@ p{
     opacity:1;
   }
 
-  .card_social {
-    text-align: center;
-
-  }
-
   .h3_social {
     color: #f9d400;
+    text-align: center;
+  }
+
+  .button_social {
+    margin: 5px;
   }
 
 
