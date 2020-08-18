@@ -41,12 +41,15 @@ p{
     color: #A9A9A9;
   }
 
-  .a-song{
+  .a-home{
     text-decoration: none;
     color:#f9d400;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
- .a-song:hover{
+ .a-home:hover{
     color:#eea804;
 }
 
@@ -71,6 +74,15 @@ p{
     background-size: cover;
     transition:all 0.3s ease-in-out;
     opacity:1;
+  }
+
+  .card_social {
+    text-align: center;
+
+  }
+
+  .h3_social {
+    color: #f9d400;
   }
 
 
