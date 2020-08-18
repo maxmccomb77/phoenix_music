@@ -16,6 +16,9 @@ class HomePage extends Component {
         return (
             <Container fluid>
                 <Row>
+                    <h1>Kevin Phoenix Music</h1>
+                </Row>
+                <Row>
                     <Col>
                 <CardGroup>
                 <Card className="card-home bg-dark text-center hover_container">

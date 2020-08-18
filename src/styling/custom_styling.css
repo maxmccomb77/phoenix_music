@@ -9,6 +9,10 @@ h1{
   font-size: 45pt;
 }
 
+p{
+  color: white;
+}
+
 .navbar{
     background-color: #252525;
     display: flex;

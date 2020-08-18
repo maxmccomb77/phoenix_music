@@ -4,6 +4,7 @@ import Header from './HeaderComponent';
 import HomePage from './HomeComponent';
 import AboutMe from './AboutMeComponent';
 import MyMusic from './MyMusicComponent';
+import Base from './BaseComponent';
 
 
 class Main extends Component {
@@ -14,8 +15,8 @@ class Main extends Component {
             <Header/>
             <Switch>
                 <Route path="/home" component={HomePage}/>
-                <Route path="/aboutme" component={AboutMe}/>
-                <Route path="/mymusic" component={MyMusic}/>
+                <Route path="/aboutme" component={Base}/>
+                <Route path="/mymusic" component={Base}/>
                 <Redirect to="/home"/>
             </Switch>
             </div>
