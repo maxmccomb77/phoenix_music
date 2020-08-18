@@ -9,6 +9,11 @@ h1{
   font-size: 45pt;
 }
 
+h2 {
+  color: whitesmoke;
+  font-size: 35pt;
+}
+
 p{
   color: white;
 }
@@ -83,6 +88,10 @@ p{
 
   .button_social {
     margin: 5px;
+  }
+
+  .button_maps {
+    margin-right: 5px;
   }
 
 
