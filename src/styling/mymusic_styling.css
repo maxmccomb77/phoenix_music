@@ -23,6 +23,11 @@ button span {
     right: 0;
   }
 
+  .container {
+    margin-left: 20%;
+    margin-right: 0%;
+  }
+
 .song-button-sc {
     display: inline-block;
     background-color: #dd4e00;
@@ -56,5 +61,23 @@ button span {
   .song-button-sp:hover{
     background-color: #127335;
   }
+
+  .song-button-yt {
+    display: inline-block;
+    background-color: #FF0000;
+    border: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
   
+  .song-button-yt:hover{
+    background-color: #c4302b;
+  }
+  
+
   

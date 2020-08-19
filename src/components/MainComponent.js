@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect} from 'react-router-dom';
 import Header from './HeaderComponent';
 import HomePage from './HomeComponent';
+import MyMusic from './MyMusicComponent';
 import Base from './BaseComponent';
 
 
@@ -14,7 +15,7 @@ class Main extends Component {
             <Switch>
                 <Route path="/home" component={HomePage}/>
                 <Route path="/aboutme" component={Base}/>
-                <Route path="/mymusic" component={Base}/>
+                <Route path="/mymusic" component={MyMusic}/>
                 <Route path="/events" component={Base}/>
                 <Route path="/supportme" component={Base}/>
                 <Redirect to="/home"/>

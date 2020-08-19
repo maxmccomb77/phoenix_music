@@ -24,7 +24,7 @@ class HomePage extends Component {
                         <CardGroup>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <a href="/mymusic" className="a-home">
-                                    <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                                    <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Music</h2></Card.Title>
                                     </Card.ImgOverlay>
@@ -32,7 +32,7 @@ class HomePage extends Component {
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <a href="/aboutme" className="a-home">
-                                    <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                                <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>About Me</h2></Card.Title>
                                     </Card.ImgOverlay>
@@ -40,7 +40,7 @@ class HomePage extends Component {
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <a href="/events" className="a-home">
-                                    <Card.Img className="card-img-home" src={require("../assets/eventsimg.png")} alt="Card image" />
+                                    <Card.Img className="card-img-home" src={require("../assets/images/eventsimg.png")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Events</h2></Card.Title>
                                     </Card.ImgOverlay>
@@ -54,7 +54,7 @@ class HomePage extends Component {
                         <CardGroup>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <a href="/supportme" className="a-home">
-                                    <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                                <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Support Me</h2></Card.Title>
                                     </Card.ImgOverlay>
@@ -87,7 +87,7 @@ class HomePage extends Component {
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <a href="/store" className="a-home">
-                                    <Card.Img className="card-img-home" src={require("../assets/crop_output.jpg")} alt="Card image" />
+                                <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Store</h2></Card.Title>
                                     </Card.ImgOverlay>
