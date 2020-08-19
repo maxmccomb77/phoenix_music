@@ -32,10 +32,7 @@ class Header extends Component {
                                 <Nav.Link href="/events" ><p className="navItem-text">Events</p></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="" ><p className="navItem-text">Store</p></Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link href="" ><p className="navItem-text">Support Me</p></Nav.Link>
+                                <Nav.Link href="/supportme" ><p className="navItem-text">Support Me</p></Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

@@ -68,11 +68,20 @@ class HomePage extends Component {
                                         </div>
 
                                     </Row>
-                                    <Row className="justify-content-md-center">
-                                        <SocialMediaIconsReact icon="facebook" url="https://www.facebook.com/kevinphoenixmusic/" iconSize="10" size="50"/>
-                                        <SocialMediaIconsReact icon="youtube" url="https://www.youtube.com/user/TheXenonPhoenix" iconSize="10" size="50"/>
-                                        <SocialMediaIconsReact icon="instagram" url="https://facebook.com" iconSize="10" size="50"/>
-                                        <SocialMediaIconsReact icon="twitter" url="https://facebook.com" iconSize="10" size="50"/>
+                                    <br/>
+                                    <Row className="justify-content-center">
+                                        <Col>
+                                        <SocialMediaIconsReact icon="facebook" url="https://www.facebook.com/kevinphoenixmusic/" iconSize="10" size="80"/>
+                                        </Col>
+                                        <Col>
+                                        <SocialMediaIconsReact icon="youtube" url="https://www.youtube.com/user/TheXenonPhoenix" iconSize="10" size="80"/>
+                                        </Col>
+                                        <Col>
+                                        <SocialMediaIconsReact icon="instagram" url="https://facebook.com" iconSize="10" size="80"/>
+                                        </Col>
+                                        <Col>
+                                        <SocialMediaIconsReact icon="twitter" url="https://facebook.com" iconSize="10" size="80"/>
+                                        </Col>
                                     </Row>
                                 </Card.Body>
                             </Card>

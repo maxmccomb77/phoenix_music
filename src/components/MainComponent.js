@@ -16,6 +16,7 @@ class Main extends Component {
                 <Route path="/aboutme" component={Base}/>
                 <Route path="/mymusic" component={Base}/>
                 <Route path="/events" component={Base}/>
+                <Route path="/supportme" component={Base}/>
                 <Redirect to="/home"/>
             </Switch>
             </div>
