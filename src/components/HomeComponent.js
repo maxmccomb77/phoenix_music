@@ -7,6 +7,7 @@ import {
     Col
 } from "react-bootstrap";
 import { SocialMediaIconsReact } from 'social-media-icons-react';
+import { Link } from 'react-router-dom';
 import '../styling/custom_styling.css';
 
 
@@ -23,28 +24,28 @@ class HomePage extends Component {
                     <Col>
                         <CardGroup>
                             <Card className="card-home bg-dark text-center hover_container">
-                                <a href="/mymusic" className="a-home">
+                                <Link to="/mymusic" className="a-home">
                                     <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Music</h2></Card.Title>
                                     </Card.ImgOverlay>
-                                </a>
+                                </Link>
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
-                                <a href="/aboutme" className="a-home">
+                                <Link to="/aboutme" className="a-home">
                                 <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>About Me</h2></Card.Title>
                                     </Card.ImgOverlay>
-                                </a>
+                                </Link>
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
-                                <a href="/events" className="a-home">
+                                <Link to="/events" className="a-home">
                                     <Card.Img className="card-img-home" src={require("../assets/images/eventsimg.png")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Events</h2></Card.Title>
                                     </Card.ImgOverlay>
-                                </a>
+                                </Link>
                             </Card>
                         </CardGroup>
                     </Col>
@@ -53,12 +54,12 @@ class HomePage extends Component {
                     <Col>
                         <CardGroup>
                             <Card className="card-home bg-dark text-center hover_container">
-                                <a href="/supportme" className="a-home">
+                                <Link to="/supportme" className="a-home">
                                 <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Support Me</h2></Card.Title>
                                     </Card.ImgOverlay>
-                                </a>
+                                </Link>
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
                                 <Card.Body>
@@ -71,27 +72,27 @@ class HomePage extends Component {
                                     <br/>
                                     <Row className="justify-content-center">
                                         <Col>
-                                        <SocialMediaIconsReact icon="facebook" url="https://www.facebook.com/kevinphoenixmusic/" iconSize="10" size="80"/>
+                                        <SocialMediaIconsReact icon="facebook" url="https://www.facebook.com/kevinphoenixmusic/" target="_blank" iconSize="10" size="80"/>
                                         </Col>
                                         <Col>
-                                        <SocialMediaIconsReact icon="youtube" url="https://www.youtube.com/user/TheXenonPhoenix" iconSize="10" size="80"/>
+                                        <SocialMediaIconsReact icon="youtube" url="https://www.youtube.com/user/TheXenonPhoenix" target="_blank" iconSize="10" size="80"/>
                                         </Col>
                                         <Col>
-                                        <SocialMediaIconsReact icon="instagram" url="https://facebook.com" iconSize="10" size="80"/>
+                                        <SocialMediaIconsReact icon="instagram" url="https://facebook.com"  target="_blank" iconSize="10" size="80"/>
                                         </Col>
                                         <Col>
-                                        <SocialMediaIconsReact icon="twitter" url="https://facebook.com" iconSize="10" size="80"/>
+                                        <SocialMediaIconsReact icon="twitter" url="https://facebook.com"  target="_blank" iconSize="10" size="80"/>
                                         </Col>
                                     </Row>
                                 </Card.Body>
                             </Card>
                             <Card className="card-home bg-dark text-center hover_container">
-                                <a href="/store" className="a-home">
+                                <Link to="/store" className="a-home">
                                 <Card.Img className="card-img-home" src={require("../assets/images/crop_output.jpg")} alt="Card image" />
                                     <Card.ImgOverlay>
                                         <Card.Title><h2>Store</h2></Card.Title>
                                     </Card.ImgOverlay>
-                                </a>
+                                </Link>
                             </Card>
                         </CardGroup>
                     </Col>

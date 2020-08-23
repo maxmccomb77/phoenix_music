@@ -1,0 +1,50 @@
+.container-left {
+    width: 12.5%;
+    background-color: #1c3047;
+}
+
+.container-right {
+    width: 12.5%;
+    background-color: #1c3047;
+}
+
+.container-main {
+    width: 75%;
+    background-color: #1c3047;
+}
+
+.fixedCard{
+    position:fixed;
+    top: 40%;
+    background-color: black;
+    width: 12.5%;
+}
+
+
+.sm-button {
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+
+.sm-button:visited {
+    background-color: white;
+    border-color: black;
+}
+
+.sm-button:focus {
+    background-color: grey;
+    border-color: black;
+}
+
+.sm-button:hover{
+    background-color: grey;
+    border-color: black;
+}
+
+.sm-button:active {
+    background-color: green;
+    border-color: black;
+}

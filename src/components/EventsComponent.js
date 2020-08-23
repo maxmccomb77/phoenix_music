@@ -88,6 +88,7 @@ class Events extends Component {
                             </Row>
                         </ListGroup.Item>
                     </ListGroup>
+                    <br />
                 </Container>
             </div>
 

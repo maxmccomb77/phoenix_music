@@ -9,6 +9,7 @@ import {
     Container,
 } from "react-bootstrap";
 import { HouseDoorFill } from 'react-bootstrap-icons';
+import { NavLink } from 'react-router-dom';
 import '../styling/custom_styling.css';
 
 
@@ -18,21 +19,23 @@ class Header extends Component {
     render() {
         return (
                 <Navbar className="navbar" variant="dark" expand="lg">
-                    <Navbar.Brand href="/home"><HouseDoorFill /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav variant="tabs" defaultActiveKey="/home">
+                        <Nav defaultActiveKey="/home">
                             <Nav.Item>
-                                <Nav.Link href="mymusic"><p className="navItem-text">My Music</p></Nav.Link>
+                                <NavLink className="navlink" to="/home"><HouseDoorFill /></NavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/aboutme" ><p className="navItem-text">About Me</p></Nav.Link>
+                                <NavLink className="navlink" to="/mymusic"><p className="navItem-text">My Music</p></NavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/events" ><p className="navItem-text">Events</p></Nav.Link>
+                                <NavLink to="/aboutme" ><p className="navItem-text">About Me</p></NavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/supportme" ><p className="navItem-text">Support Me</p></Nav.Link>
+                                <NavLink to="/events" ><p className="navItem-text">Events</p></NavLink>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <NavLink to="/supportme" ><p className="navItem-text">Support Me</p></NavLink>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
